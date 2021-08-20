@@ -1,4 +1,110 @@
 body {
     margin: 3em auto;
+    color: hsl(0, 0%, 95%);
     width: 375px;
+}
+
+.main-card {
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+.main-card img {
+    width: 4em;
+}
+
+.sedans-card {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.8em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 0 0;
+}
+
+.sedans-card h1 {
+    margin: 0.6em 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 600;
+    font-size: 2.3em;
+    text-transform: uppercase;
+}
+
+.sedans-card p {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5em;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.sedans-card a {
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    padding: 1.1em;
+    margin: 1.5em 0 1em 0;
+    width: 50%;
+    border-radius: 30px;
+}
+
+.suvs-card {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.suvs-card h1 {
+    margin: 0.6em 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 600;
+    font-size: 2.3em;
+    text-transform: uppercase;
+}
+
+.suvs-card p {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5em;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.suvs-card a {
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    padding: 1.1em;
+    margin: 1.5em 0 1em 0;
+    width: 50%;
+    border-radius: 30px;
+}
+
+.luxury-card {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.8em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+}
+
+.luxury-card h1 {
+    margin: 0.6em 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 600;
+    font-size: 2.3em;
+    text-transform: uppercase;
+}
+
+.luxury-card p {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5em;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.luxury-card a {
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    padding: 1.1em;
+    margin: 1.5em 0 1em 0;
+    width: 50%;
+    border-radius: 30px;
 }
