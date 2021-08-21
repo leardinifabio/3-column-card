@@ -14,6 +14,7 @@ body {
     width: 4em;
 }
 
+/* Sedans Box */
 .sedans-card {
     background-color: hsl(31, 77%, 52%);
     padding: 2.8em;
@@ -43,9 +44,33 @@ body {
     padding: 1.1em;
     margin: 1.5em 0 1em 0;
     width: 50%;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
     border-radius: 30px;
 }
 
+.sedans-card a:link {
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+.sedans-card a:visited {
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+.sedans-card a:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+}
+
+/* SUVs Box */
 .suvs-card {
     background-color: hsl(184, 100%, 22%);
     padding: 2.8em;
@@ -74,9 +99,33 @@ body {
     padding: 1.1em;
     margin: 1.5em 0 1em 0;
     width: 50%;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
     border-radius: 30px;
 }
 
+.suvs-card a:link {
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+.suvs-card a:visited {
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+.suvs-card a:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+}
+
+/* Luxury Box */
 .luxury-card {
     background-color: hsl(179, 100%, 13%);
     padding: 2.8em;
@@ -106,5 +155,176 @@ body {
     padding: 1.1em;
     margin: 1.5em 0 1em 0;
     width: 50%;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
     border-radius: 30px;
+}
+
+.luxury-card a:link {
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+.luxury-card a:visited {
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+.luxury-card a:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+    margin: 2em auto;
+    color: black;
+    font-size: 0.8em;
+    display: block;
+    text-align: center;
+}
+
+@media (min-width: 950px) and (max-width: 1300px) {
+
+    body {
+        margin: 10em auto;
+        width: auto;
+    }
+
+    .main-card {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sedans-card {
+        width: 33%;
+        height: auto;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .suvs-card {
+        width: 33%;
+        height: auto;
+    }
+
+    .luxury-card {
+        width: 33%;
+        height: auto;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .attribution {
+        display: block;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1301px) and (max-width: 1600px) {
+
+    body {
+        margin: 10em auto;
+        width: auto;
+    }
+
+    .main-card {
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sedans-card {
+        width: 33%;
+        height: auto;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .suvs-card {
+        width: 33%;
+        height: auto;
+    }
+
+    .luxury-card {
+        width: 33%;
+        height: auto;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .sedans-card h1,
+    .suvs-card h1,
+    .luxury-card h1 {
+        margin: 1em 0;
+    }
+
+    .sedans-card p,
+    .suvs-card p,
+    .luxury-card p {
+        margin: 0 0 2em 0;
+        font-size: 1.1em;
+    }
+
+    .attribution {
+        display: block;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1601px) {
+
+    body {
+        margin: 10em auto;
+        width: auto;
+    }
+
+    .main-card {
+        width: 65%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sedans-card {
+        width: 33%;
+        height: auto;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .suvs-card {
+        width: 33, 33%;
+        height: auto;
+    }
+
+    .luxury-card {
+        width: 33%;
+        height: auto;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .sedans-card h1,
+    .suvs-card h1,
+    .luxury-card h1 {
+        margin: 1em 0;
+        font-size: 2.8em;
+    }
+
+    .sedans-card p,
+    .suvs-card p,
+    .luxury-card p {
+        margin: 0 0 2em 0;
+        font-size: 1.2em;
+    }
+
+    .attribution {
+        display: block;
+        font-size: 1em;
+        text-align: center;
+    }
 }
