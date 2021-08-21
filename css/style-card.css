@@ -285,7 +285,7 @@ body {
     }
 
     .main-card {
-        width: 65%;
+        width: 63%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -298,7 +298,7 @@ body {
     }
 
     .suvs-card {
-        width: 33, 33%;
+        width: 33%;
         height: auto;
     }
 
